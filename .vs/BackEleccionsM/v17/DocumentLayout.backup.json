@@ -6,16 +6,41 @@
       "AbsoluteMoniker": "D:0:0:{BEF778D0-43FC-4CE1-A694-50A80C4CE6DA}|..\\FrontEleccM\\FrontEleccM.csproj|c:\\users\\andrew\\source\\repos\\fronteleccm\\layout\\cardcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEF778D0-43FC-4CE1-A694-50A80C4CE6DA}|..\\FrontEleccM\\FrontEleccM.csproj|c:\\users\\andrew\\source\\repos\\fronteleccm\\layout\\partitcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BEF778D0-43FC-4CE1-A694-50A80C4CE6DA}|..\\FrontEleccM\\FrontEleccM.csproj|c:\\users\\andrew\\source\\repos\\fronteleccm\\frontservices\\municipiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BEF778D0-43FC-4CE1-A694-50A80C4CE6DA}|..\\FrontEleccM\\FrontEleccM.csproj|c:\\users\\andrew\\source\\repos\\fronteleccm\\pages\\configuration.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEF778D0-43FC-4CE1-A694-50A80C4CE6DA}|..\\FrontEleccM\\FrontEleccM.csproj|c:\\users\\andrew\\source\\repos\\fronteleccm\\layout\\municomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BEF778D0-43FC-4CE1-A694-50A80C4CE6DA}|..\\FrontEleccM\\FrontEleccM.csproj|c:\\users\\andrew\\source\\repos\\fronteleccm\\frontservices\\stateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEF778D0-43FC-4CE1-A694-50A80C4CE6DA}|..\\FrontEleccM\\FrontEleccM.csproj|c:\\users\\andrew\\source\\repos\\fronteleccm\\frontservices\\resultattaulaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEF778D0-43FC-4CE1-A694-50A80C4CE6DA}|..\\FrontEleccM\\FrontEleccM.csproj|c:\\users\\andrew\\source\\repos\\fronteleccm\\frontservices\\votservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEF778D0-43FC-4CE1-A694-50A80C4CE6DA}|..\\FrontEleccM\\FrontEleccM.csproj|c:\\users\\andrew\\source\\repos\\fronteleccm\\frontservices\\taulaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEF778D0-43FC-4CE1-A694-50A80C4CE6DA}|..\\FrontEleccM\\FrontEleccM.csproj|c:\\users\\andrew\\source\\repos\\fronteleccm\\frontservices\\candidatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEF778D0-43FC-4CE1-A694-50A80C4CE6DA}|..\\FrontEleccM\\FrontEleccM.csproj|c:\\users\\andrew\\source\\repos\\fronteleccm\\frontservices\\partitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BEF778D0-43FC-4CE1-A694-50A80C4CE6DA}|..\\FrontEleccM\\FrontEleccM.csproj|c:\\users\\andrew\\source\\repos\\fronteleccm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEF778D0-43FC-4CE1-A694-50A80C4CE6DA}|..\\FrontEleccM\\FrontEleccM.csproj|c:\\users\\andrew\\source\\repos\\fronteleccm\\layout\\taulapartitcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEF778D0-43FC-4CE1-A694-50A80C4CE6DA}|..\\FrontEleccM\\FrontEleccM.csproj|c:\\users\\andrew\\source\\repos\\fronteleccm\\layout\\taulacardcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40292632-AC18-4394-B948-24D7AEB54724}|BackEleccionsM.csproj|c:\\users\\andrew\\source\\repos\\backeleccionsm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40292632-AC18-4394-B948-24D7AEB54724}|BackEleccionsM.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,14 +59,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PartitComponent.razor",
-              "DocumentMoniker": "C:\\Users\\Andrew\\source\\repos\\FrontEleccM\\Layout\\PartitComponent.razor",
-              "RelativeDocumentMoniker": "..\\FrontEleccM\\Layout\\PartitComponent.razor",
-              "ToolTip": "C:\\Users\\Andrew\\source\\repos\\FrontEleccM\\Layout\\PartitComponent.razor",
-              "RelativeToolTip": "..\\FrontEleccM\\Layout\\PartitComponent.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T00:21:27.523Z",
+              "Title": "MunicipiService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrew\\source\\repos\\FrontEleccM\\FrontServices\\MunicipiService.cs",
+              "RelativeDocumentMoniker": "..\\FrontEleccM\\FrontServices\\MunicipiService.cs",
+              "ToolTip": "C:\\Users\\Andrew\\source\\repos\\FrontEleccM\\FrontServices\\MunicipiService.cs",
+              "RelativeToolTip": "..\\FrontEleccM\\FrontServices\\MunicipiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:01:43.402Z",
               "EditorCaption": ""
             },
             {
@@ -52,9 +77,60 @@
               "RelativeDocumentMoniker": "..\\FrontEleccM\\Layout\\CardComponent.razor",
               "ToolTip": "C:\\Users\\Andrew\\source\\repos\\FrontEleccM\\Layout\\CardComponent.razor",
               "RelativeToolTip": "..\\FrontEleccM\\Layout\\CardComponent.razor",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAQwDIAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAAAFsBAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T15:23:42.745Z",
+              "WhenOpened": "2024-11-27T04:33:02.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TaulaService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrew\\source\\repos\\FrontEleccM\\FrontServices\\TaulaService.cs",
+              "RelativeDocumentMoniker": "..\\FrontEleccM\\FrontServices\\TaulaService.cs",
+              "ToolTip": "C:\\Users\\Andrew\\source\\repos\\FrontEleccM\\FrontServices\\TaulaService.cs",
+              "RelativeToolTip": "..\\FrontEleccM\\FrontServices\\TaulaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:02:11.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResultatTaulaService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrew\\source\\repos\\FrontEleccM\\FrontServices\\ResultatTaulaService.cs",
+              "RelativeDocumentMoniker": "..\\FrontEleccM\\FrontServices\\ResultatTaulaService.cs",
+              "ToolTip": "C:\\Users\\Andrew\\source\\repos\\FrontEleccM\\FrontServices\\ResultatTaulaService.cs",
+              "RelativeToolTip": "..\\FrontEleccM\\FrontServices\\ResultatTaulaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:02:25.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VotService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrew\\source\\repos\\FrontEleccM\\FrontServices\\VotService.cs",
+              "RelativeDocumentMoniker": "..\\FrontEleccM\\FrontServices\\VotService.cs",
+              "ToolTip": "C:\\Users\\Andrew\\source\\repos\\FrontEleccM\\FrontServices\\VotService.cs",
+              "RelativeToolTip": "..\\FrontEleccM\\FrontServices\\VotService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwCIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:03:33.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StateService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrew\\source\\repos\\FrontEleccM\\FrontServices\\StateService.cs",
+              "RelativeDocumentMoniker": "..\\FrontEleccM\\FrontServices\\StateService.cs",
+              "ToolTip": "C:\\Users\\Andrew\\source\\repos\\FrontEleccM\\FrontServices\\StateService.cs",
+              "RelativeToolTip": "..\\FrontEleccM\\FrontServices\\StateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:21:48.397Z",
               "EditorCaption": ""
             },
             {
@@ -65,33 +141,82 @@
               "RelativeDocumentMoniker": "..\\FrontEleccM\\Pages\\Configuration.razor",
               "ToolTip": "C:\\Users\\Andrew\\source\\repos\\FrontEleccM\\Pages\\Configuration.razor",
               "RelativeToolTip": "..\\FrontEleccM\\Pages\\Configuration.razor",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAkwKAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T15:26:47.417Z"
+              "WhenOpened": "2024-11-27T04:32:49.89Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MuniComponent.razor",
-              "DocumentMoniker": "C:\\Users\\Andrew\\source\\repos\\FrontEleccM\\Layout\\MuniComponent.razor",
-              "RelativeDocumentMoniker": "..\\FrontEleccM\\Layout\\MuniComponent.razor",
-              "ToolTip": "C:\\Users\\Andrew\\source\\repos\\FrontEleccM\\Layout\\MuniComponent.razor",
-              "RelativeToolTip": "..\\FrontEleccM\\Layout\\MuniComponent.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T18:22:04.986Z"
+              "DocumentIndex": 8,
+              "Title": "PartitService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrew\\source\\repos\\FrontEleccM\\FrontServices\\PartitService.cs",
+              "RelativeDocumentMoniker": "..\\FrontEleccM\\FrontServices\\PartitService.cs",
+              "ToolTip": "C:\\Users\\Andrew\\source\\repos\\FrontEleccM\\FrontServices\\PartitService.cs",
+              "RelativeToolTip": "..\\FrontEleccM\\FrontServices\\PartitService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:01:56.285Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
+              "Title": "CandidatService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrew\\source\\repos\\FrontEleccM\\FrontServices\\CandidatService.cs",
+              "RelativeDocumentMoniker": "..\\FrontEleccM\\FrontServices\\CandidatService.cs",
+              "ToolTip": "C:\\Users\\Andrew\\source\\repos\\FrontEleccM\\FrontServices\\CandidatService.cs",
+              "RelativeToolTip": "..\\FrontEleccM\\FrontServices\\CandidatService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwCUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:02:38.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Andrew\\source\\repos\\FrontEleccM\\Program.cs",
               "RelativeDocumentMoniker": "..\\FrontEleccM\\Program.cs",
               "ToolTip": "C:\\Users\\Andrew\\source\\repos\\FrontEleccM\\Program.cs",
               "RelativeToolTip": "..\\FrontEleccM\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T15:20:55.731Z"
+              "WhenOpened": "2024-11-28T04:04:42.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaulaPartitComponent.razor",
+              "DocumentMoniker": "C:\\Users\\Andrew\\source\\repos\\FrontEleccM\\Layout\\TaulaPartitComponent.razor",
+              "RelativeDocumentMoniker": "..\\FrontEleccM\\Layout\\TaulaPartitComponent.razor",
+              "ToolTip": "C:\\Users\\Andrew\\source\\repos\\FrontEleccM\\Layout\\TaulaPartitComponent.razor",
+              "RelativeToolTip": "..\\FrontEleccM\\Layout\\TaulaPartitComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T16:07:36.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Andrew\\source\\repos\\BackEleccionsM\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Andrew\\source\\repos\\BackEleccionsM\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T23:19:59.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TaulaCardComponent.razor",
+              "DocumentMoniker": "C:\\Users\\Andrew\\source\\repos\\FrontEleccM\\Layout\\TaulaCardComponent.razor",
+              "RelativeDocumentMoniker": "..\\FrontEleccM\\Layout\\TaulaCardComponent.razor",
+              "ToolTip": "C:\\Users\\Andrew\\source\\repos\\FrontEleccM\\Layout\\TaulaCardComponent.razor",
+              "RelativeToolTip": "..\\FrontEleccM\\Layout\\TaulaCardComponent.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T02:34:46.083Z"
             }
           ]
         }

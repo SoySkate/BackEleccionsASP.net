@@ -1,8 +1,10 @@
 ﻿using BackEleccionsM.Dto;
+using BackEleccionsM.Hubs;
 using BackEleccionsM.Interfaces;
 using BackEleccionsM.Models;
 using BackEleccionsM.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
 
 namespace BackEleccionsM.Controllers
 {
@@ -11,10 +13,12 @@ namespace BackEleccionsM.Controllers
     public class PartitPoliticController : Controller
     {
         private readonly IPartitPoliticService _partitPoliticService;
+        private readonly IHubContext<DataHub> _hubContext;
 
-        public PartitPoliticController(IPartitPoliticService partitPoliticService)
+        public PartitPoliticController(IPartitPoliticService partitPoliticService, IHubContext<DataHub> hubContext)
         {
             _partitPoliticService = partitPoliticService;
+            _hubContext = hubContext;
         }
 
         //________________READ ALL Partits
@@ -93,6 +97,10 @@ namespace BackEleccionsM.Controllers
                 ModelState.AddModelError("", "Something went wrong updating partit");
                 return StatusCode(500, ModelState);
             }
+            // Actualizar el partit en la base de datos
+            // (Esto es solo un ejemplo, incluye tu lógica real de actualización)
+            // **Enviar notificación al frontend a través del hub**
+            await _hubContext.Clients.All.SendAsync("UpdatePartits", partitUpdate);
             return NoContent();
         }
 

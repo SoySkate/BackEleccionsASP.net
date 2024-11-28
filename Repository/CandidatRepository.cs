@@ -49,6 +49,11 @@ namespace BackEleccionsM.Repository
             return await _context.Candidats.ToListAsync();
         }
 
+		public async Task<List<Candidat>> GetCandidatsByMunicipiId(int muniId)
+		{
+			return await _context.Candidats.Where(c=>c.PartitPolitic.MunicipiId == muniId).ToListAsync();
+		}
+
 		public async Task<List<Candidat>> GetCandidatsByPartitId(int partitId)
 		{
 			return await _context.Candidats.Where(c=>c.PartitPoliticId == partitId).ToListAsync();

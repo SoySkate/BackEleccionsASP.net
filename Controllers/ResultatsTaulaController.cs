@@ -38,6 +38,17 @@ namespace BackEleccionsM.Controllers
             if (!ModelState.IsValid) { return BadRequest(ModelState); }
             return Ok(resultatsTaula);
         }
+        //________________READ A ResultatsTaula by Taula ID
+        [HttpGet("taulaID/{TaulaId}")]
+        [ProducesResponseType(200, Type = typeof(ResultatsTaula))]
+        [ProducesResponseType(400)]
+        public async Task<IActionResult> GetResultatsTaulaByTaulaId(int TaulaId)
+        {
+            var resultatsTaula = await _resultatsTaulaService.GetResultatsTaulaByTaulaID(TaulaId);
+            if (resultatsTaula == null) { return NotFound(); }
+            if (!ModelState.IsValid) { return BadRequest(ModelState); }
+            return Ok(resultatsTaula);
+        }
 
         //_______________________________Create ResultatsTaula   
         [HttpPost]

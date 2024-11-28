@@ -56,6 +56,16 @@ namespace BackEleccionsM.Services
             return _mapper.Map<List<VotsPerPartitDto>>(await _votsPerPartitRepository.GetVotsPerPartits());
         }
 
+		public async Task<ICollection<VotsPerPartitDto>> GetVotsPerPartitsByPartitID(int partitID)
+		{
+			return _mapper.Map<List<VotsPerPartitDto>>(await _votsPerPartitRepository.GetVotsPerPartitsByPartitID(partitID));
+		}
+
+		public async Task<ICollection<VotsPerPartitDto>> GetVotsPerPartitsByResultatsTaulaID(int resultatsTaulaId)
+        {
+            return _mapper.Map<List<VotsPerPartitDto>>(await _votsPerPartitRepository.GetVotsPerPartitsByResultatsTaulaID(resultatsTaulaId));
+        }
+
         public async Task<bool> UpdateVotsPerPartit(VotsPerPartitDto votsPerPartit)
         {
 

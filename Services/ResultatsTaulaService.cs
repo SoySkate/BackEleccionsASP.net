@@ -52,6 +52,16 @@ namespace BackEleccionsM.Services
             else {  return null; }
         }
 
+        public async Task<ResultatsTaulaDto> GetResultatsTaulaByTaulaID(int id)
+        {
+            var result = _mapper.Map<ResultatsTaulaDto>(await _resultatsTaulaRepository.GetResultatsTaulaByTaulaID(id));
+            if (result != null)
+            {
+                return result;
+            }
+            return null;
+        }
+
         public async Task<ICollection<ResultatsTaulaDto>> GetResultatsTaules()
         {
             return _mapper.Map<List<ResultatsTaulaDto>>(await _resultatsTaulaRepository.GetResultatsTaules());

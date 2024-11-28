@@ -5,6 +5,7 @@
         public int ID { get; set; }
         public string NomMunicipi { get; set; }
         public int NumeroRegidors { get; set; }
+        public double PercentatgeMinimEstablert { get; set; }
         //Potser la list de llista partits del municipi té més sentit...?
         public ICollection<PartitPolitic> LlistaPartits { get; set; }
         public ICollection<TaulaElectoral> TaulesElectorals { get; set; }

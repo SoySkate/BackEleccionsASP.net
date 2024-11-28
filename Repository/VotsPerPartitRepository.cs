@@ -37,6 +37,16 @@ namespace BackEleccionsM.Repository
             return await _context.VotsPerPartit.ToListAsync();
         }
 
+		public async Task<ICollection<VotsPerPartit>> GetVotsPerPartitsByPartitID(int partitID)
+		{
+			return await _context.VotsPerPartit.Where(v=>v.PartitId == partitID).ToListAsync();
+		}
+
+		public async Task<ICollection<VotsPerPartit>> GetVotsPerPartitsByResultatsTaulaID(int resultatsTaulaId)
+        {
+            return await _context.VotsPerPartit.Where(v=>v.ResultatsTaulaId==resultatsTaulaId).ToListAsync();
+        }
+
         public async Task<bool> Save()
         {
             var saved = await _context.SaveChangesAsync();

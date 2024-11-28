@@ -31,6 +31,11 @@ namespace BackEleccionsM.Repository
             return await _context.ResultatsTaules.FirstOrDefaultAsync(c => c.ID == id);
         }
 
+        public async Task<ResultatsTaula> GetResultatsTaulaByTaulaID(int id)
+        {
+            return await _context.ResultatsTaules.Where(r=>r.TaulaElectoralId == id).FirstOrDefaultAsync();
+        }
+
         public async Task<ICollection<ResultatsTaula>> GetResultatsTaules()
         {
             return await _context.ResultatsTaules.ToListAsync();

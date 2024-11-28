@@ -7,7 +7,9 @@ namespace BackEleccionsM.Interfaces
     {
         Task<ICollection<VotsPerPartitDto>> GetVotsPerPartits();
         Task<VotsPerPartitDto> GetVotsPerPartit(int id);
-        bool VotsPerPartitExists(int votsPerPartitId);
+        Task<ICollection<VotsPerPartitDto>> GetVotsPerPartitsByResultatsTaulaID(int resultatsTaulaId);
+		Task<ICollection<VotsPerPartitDto>> GetVotsPerPartitsByPartitID(int partitID);
+		bool VotsPerPartitExists(int votsPerPartitId);
         Task<bool> CreateVotsPerPartit(VotsPerPartitDto votsPerPartit);
         Task<bool> UpdateVotsPerPartit(VotsPerPartitDto votsPerPartit);
         Task<bool> DeleteVotsPerPartit(int id);

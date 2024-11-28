@@ -11,6 +11,7 @@ namespace BackEleccionsM.Interfaces
         Task<Candidat> GetCandidat(int id);
         Task<Candidat> GetCandidat(string name);
         Task <List<Candidat>> GetCandidatsByPartitId(int partitId);
+        Task <List<Candidat>> GetCandidatsByMunicipiId(int muniId);
         bool CandidatExists(int id);
         Task<bool> CreateCandidat(Candidat candidat);
         Task<bool> UpdateCandidat(Candidat candidat);

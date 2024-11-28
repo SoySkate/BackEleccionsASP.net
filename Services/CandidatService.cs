@@ -76,6 +76,11 @@ namespace BackEleccionsM.Services
             return _mapper.Map<List<CandidatDto>>(await _candidatRepository.GetCandidats());
         }
 
+		public async Task<List<CandidatDto>> GetCandidatsByMunicipiId(int muniId)
+		{
+                return _mapper.Map<List<CandidatDto>>( await _candidatRepository.GetCandidatsByMunicipiId(muniId));
+		}
+
 		public async Task<List<CandidatDto>> GetCandidatsByPartitId(int partitId)
 		{
             return _mapper.Map<List<CandidatDto>>(await _candidatRepository.GetCandidatsByPartitId(partitId));

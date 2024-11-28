@@ -35,7 +35,8 @@ tambien el automapper dependency injeccion.
 
 ·CREO LAS INTERFACES, RESPOSITORY, DTO, HELPER..
 
-
+(para implementar SignalR, creamos una carpeta hub y dentro puede ser u metodo vacio por ejemplo ya que en
+el controller es donde pondremos la Interface de Hub (IHub) para poder luego desde el front esucharlo)
 _________________________________________________________
 Recomendación para el Proyecto Electoral
 Dado que se espera una alta concurrencia en un entorno electoral, Blazor WebAssembly es probablemente la opción más adecuada por las siguientes razones:

@@ -58,6 +58,9 @@ namespace BackEleccionsM.Migrations
                     b.Property<int>("NumeroRegidors")
                         .HasColumnType("int");
 
+                    b.Property<double>("PercentatgeMinimEstablert")
+                        .HasColumnType("float");
+
                     b.HasKey("ID");
 
                     b.ToTable("Municipis");

@@ -50,6 +50,18 @@ namespace BackEleccionsM.Controllers
 			return Ok(candidats);
 		}
 
+		//________________READ A Candidats by muniID
+		[HttpGet("muni/{muniID}")]
+		[ProducesResponseType(200, Type = typeof(Candidat))]
+		[ProducesResponseType(400)]
+		public async Task<IActionResult> GetCandidatsByMuniID(int muniID)
+		{
+			var candidats = await _candidatService.GetCandidatsByMunicipiId(muniID);
+			if (candidats == null) { return NotFound(); }
+			if (!ModelState.IsValid) { return BadRequest(ModelState); }
+			return Ok(candidats);
+		}
+
 		//_______________________________Create CANDIDAT   
 		[HttpPost]
         [ProducesResponseType(204)]

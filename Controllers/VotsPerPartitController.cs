@@ -40,8 +40,31 @@ namespace BackEleccionsM.Controllers
             return Ok(votsPerPartit);
         }
 
-        //_______________________________Create VotsPerPartit   
-        [HttpPost]
+        //________________READ VotsPerPartits by ResultatTaulaID
+        [HttpGet("resultatTaulaID/{resultatTaulaID}")]
+        [ProducesResponseType(200, Type = typeof(VotsPerPartit))]
+        [ProducesResponseType(400)]
+        public async Task<IActionResult> GetVotsPerPartitByResultatsTaulaId(int resultatTaulaID)
+        {
+            var votsPerPartit = await _votsPerPartitService.GetVotsPerPartitsByResultatsTaulaID(resultatTaulaID);
+            if (votsPerPartit == null) { return NotFound(); }
+            if (!ModelState.IsValid) { return BadRequest(ModelState); }
+            return Ok(votsPerPartit);
+        }
+		//________________READ VotsPerPartits by ResultatTaulaID
+		[HttpGet("partitID/{partitID}")]
+		[ProducesResponseType(200, Type = typeof(VotsPerPartit))]
+		[ProducesResponseType(400)]
+		public async Task<IActionResult> GetVotsPerPartitByPartitID(int partitID)
+		{
+			var votsPerPartit = await _votsPerPartitService.GetVotsPerPartitsByPartitID(partitID);
+			if (votsPerPartit == null) { return NotFound(); }
+			if (!ModelState.IsValid) { return BadRequest(ModelState); }
+			return Ok(votsPerPartit);
+		}
+
+		//_______________________________Create VotsPerPartit   
+		[HttpPost]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
         public async Task<IActionResult> CreateVotsPerPartit([FromBody] VotsPerPartitDto votsPerPartitCreate)

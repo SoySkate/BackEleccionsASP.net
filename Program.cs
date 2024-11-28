@@ -1,4 +1,5 @@
 
+using BackEleccionsM.Hubs;
 using BackEleccionsM.Interfaces;
 using BackEleccionsM.Repository;
 using BackEleccionsM.Services;
@@ -16,9 +17,11 @@ namespace BackEleccionsM
             // Add services to the container.
 
             builder.Services.AddControllers();
+			// Añadir SignalR a los servicios
+			builder.Services.AddSignalR(); // Esto es necesario para que SignalR funcione correctamente
 
             //esto es como importar dentro de la app el automapper y que pueda accedes a mapperar los assemblies
-            builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+			builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             
             builder.Services.AddScoped<ICandidatRepository, CandidatRepository>();
             builder.Services.AddScoped<IMunicipiRepository, MunicipiRepository>();
@@ -57,8 +60,9 @@ namespace BackEleccionsM
 
             //esto contruye la app tener en cuenta que cosas van antes o despues
             var app = builder.Build();
-           
 
+            // Mapear el hub
+            app.MapHub<DataHub>("/datahub"); // La URL será "/datahub"
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
